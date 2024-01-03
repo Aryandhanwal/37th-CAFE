@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#navbar{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background-color: peachpuff;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    position: fixed;
+}
+#navbar h1{
+    padding-left: 40px;
+    font-family: 'Lobster', sans-serif;
+
+
+}
+#navbar ul{
+    display: flex;
+    padding-left: 30%;
+    
+}
+#navbar ul li{
+
+    margin: 30px;
+    list-style: none;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+#navbar ul li a:hover{
+    color: darkgray;
+    animation-duration: 4s;
+}
+#navbar h1{
+    font-size: 40px;
+}
+#navbar h1 span{
+    color: grey;
+    font-weight: 900;
+}
+.log-in{
+    padding-right: 70px;
+    
+}
+.log-in:hover{
+    color: darkgray;
+}
+#navbar ul .fa-solid{
+    margin: 10px;
+}
+.log-in .fa-solid{
+    margin: 10px;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url('images/pexels-photo-15017006.webp');
+    background-size: cover;
+}
+#main h2{
+    color: white;
+    padding-top: 20%;
+    font-size: 70px;
+    padding-left: 30px;
+    
+}
+#main .btn{
+    
+    padding-left: 20px;
+    margin: 50px ;
+     
+}
+.btn button{
+    background-color: transparent;
+    margin: 20px;
+    border: 1px solid  white;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn button:hover{
+    background-color: thistle;
+}
+#page-2{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(56, 54, 54);
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#page-2 h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#page-2 .fa-solid{
+    font-size: 30px;
+    padding: 20px;
+}
+#page-2 .fa-solid:hover{
+    color: black;
+}
+#page-3{
+    width: 100%;
+    height: 110%;
+    background-color: white;
+}
+#page-3 img{
+    width: 50%;
+    height: 80%;
+    float: right;
+
+}
+#page-3 .text{
+    padding-top: 10%;
+    
+    
+    
+    
+}
+.text h1{
+    font-size: 100px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 10%;
+    
+}
+.text h2{
+    font-size: 30px;
+    margin: 20px;
+    font-weight: 400;
+    padding-left: 10%;
+    
+}
+.text p{
+    font-size: 20px;
+    padding-left: 11%;
+    
+}
+.text button{
+    background-color: transparent;
+    margin: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 10px;
+    margin-left: 11%;
+    margin-top: 40px;
+    color: black;
+    box-shadow: 5px 4px 5px black;
+
+
+}
+.text button:hover{
+    background-color: gray;
+
+}
+#page-4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    
+    
+}
+#page-4 img{
+    height: 80%;
+    width: 50%;
+    padding-top: 6%;
+    float: left;
+
+
+}
+#page-4 .text-1{
+     
+      padding-top: 15%;
+}
+#page-4 h1{
+    padding-left: 60% ;
+}
+#page-4 h2{
+    padding-left: 59%;
+}
+#page-4 p{
+    padding-left: 60%;
+}
+#page-5{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#page-5 img{
+    padding-top:6%;
+    height: 90%;
+}
+#page-5 h1{
+    padding-top: 20%;
+    font-size: 70px;
+    padding-left: 10%;
+    margin: 20px;
+}
+#page-5 h2{
+    padding-left: 10%;
+    font-size: 30px;
+    margin: 20px;
+}
+#page-5 p{
+    padding-left: 11%;
+
+}
+#page-5 button{
+    background-color: transparent;
+    margin: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 10px;
+    margin-left: 11%;
+    margin-top: 40px;
+    color: black;
+    box-shadow: 5px 4px 5px black;
+
+
+
+}
+#page-5 button:hover{
+    background-color: gray;
+}
+#page-6{
+    height: 50%;
+    width: 100%;
+    margin-top: 5%;
+    background-color: rgba(255, 192, 203, 0.54);
+
+}
+#page-6 h1{
+    padding-top: 5%;
+    padding-left: 29%;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#page-6 h2{
+    padding-left: 33%;
+    font-weight: 500;
+    font-weight: 400;
+}
+#page-6 h2 span{
+    margin: 10%;
+}
+#page-6 h3 {
+     padding-left:33% ;
+     font-size: 25px;
+     font-weight: 500;
+     font-weight: 400;
+}
+#page-6 h3 span{
+    margin: 10%;
+}
+#page-6 .fa-solid{
+    margin: 10px;
+    font-size: 20px;
+}
+#page-7{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+#page-7 img{
+    padding-top: 0px;
+    height: 110%;
+    width: 100%;
+}
+#page-9{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(93, 135, 93);
+    
+}
+#page-9 h1{
+    padding-left: 40%;
+    padding-top: 10%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px black ;
+}
+#page-9 h2{
+    padding-left: 45%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 9px black ;
+}
+.icon{
+    font-size: 40px;
+    padding-left: 45%;
+    color: white;
+    text-shadow: 2px 9px black ;
+
+}
